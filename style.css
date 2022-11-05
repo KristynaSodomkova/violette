@@ -1,0 +1,98 @@
+html { box-sizing: border-box; }
+*, ::after, ::before { box-sizing: inherit; }
+
+/*
+used colours:
+white: #F8F7FF;
+light violet: #B8B8FF;
+medium violet: #9381FF;
+brown: #6E4555;
+dark green: #2B3D41;
+*/
+
+/*general elements*/
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    color: #6E4555;
+    text-align: center;
+    
+}
+a {
+    text-decoration: none;
+    display: block;
+    padding: 6px;
+    color: #6E4555;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*header*/
+.header {
+    background-color: #B8B8FF;
+    color: white;
+}
+
+.main-section {
+    background-image: url("img/vlastnisalon2.jpg");
+    background-size: cover;
+    /*height: 70%;*/
+}
+
+
+.menu {
+    position: relative;
+    top: 2%;
+    right: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.menu img {
+    width: 50%;
+    border-radius: 50%;
+}
+
+.menu a{
+    max-width: 20%;
+    border-radius: 50%;
+}
+
+.menu a:hover{
+    backdrop-filter: blur(10px);
+}
+
+
+.basic-info {
+    backdrop-filter: blur(10px);
+}
+
+.map {
+    margin: 0;
+    padding: 0;
+}
+
+/*footer that contains contact info*/
+footer {
+    background-color: #B8B8FF;
+    color: white;
+    margin: 0;
+    display: flex;s
+}
+
+.logo {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    width: 150px;
+    
+   
+}
+
